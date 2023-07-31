@@ -1,1 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    background-color: black;
+    padding-right: 15px;
+}
+
+li {
+    border-left:1px solid #bbb;
+}
+
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+li:hover {
+    background-color:gray;
+  }
+
+.logo{
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+
+
+
+
 
