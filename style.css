@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: white;
@@ -7,43 +7,64 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     background-color: black;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     background-color: black;
     padding-right: 15px;
 }
 
 li {
-    border-left:1px solid #bbb;
+    border-left: 1px solid #bbb;
 }
 
-li a{
+li a {
     display: flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    justify-content: flex-end;
 }
 
 li:hover {
-    background-color:gray;
-  }
-
-.logo{
-    padding: 0px 15px;
-    font-weight: bold;
+    background-color: gray;
 }
 
-
-
-
-
-
+.logo {
+    position: relative;
+    padding: 0px 15px;
+    width: 300px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+.logo span{
+    font-size: 22px;
+    border-left: 3px double #faf3f3;
+    border-bottom: 3px groove #ffffff;
+    border-radius: 20%;
+    padding-left: 3px;
+}
+.full-name {
+   opacity: 0;
+   font-size: 22px;
+   position: absolute;
+   top: 0;
+   left: 20px;
+   -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+.logo .full-name:hover {
+    opacity:1;
+}
