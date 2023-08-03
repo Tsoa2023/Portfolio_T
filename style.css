@@ -42,6 +42,7 @@ li:hover {
     font-weight: bold;
     cursor: pointer;
     overflow: hidden;
+    text-align: left;
 }
 .logo span{
     font-size: 22px;
@@ -56,8 +57,7 @@ li:hover {
    position: absolute;
    top: 0;
    left: 20px;
-   transition: all 400ms ease-out;
-   text-align: center;
+   transition: opacity 400ms ease-out;
 }
 .logo .full-name:hover {
     opacity:1;
