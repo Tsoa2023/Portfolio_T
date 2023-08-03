@@ -16,7 +16,6 @@
 
 ul {
     display: flex;
-    background-color: black;
     padding-right: 15px;
 }
 
@@ -29,7 +28,6 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 li:hover {
@@ -58,12 +56,8 @@ li:hover {
    position: absolute;
    top: 0;
    left: 20px;
-   -webkit-transition: all 400ms ease-out;
-  -moz-transition: all 400ms ease-out;
-  -o-transition: all 400ms ease-out;
-  -ms-transition: all 400ms ease-out;
-  transition: all 400ms ease-out;
-  text-align: center;
+   transition: all 400ms ease-out;
+   text-align: center;
 }
 .logo .full-name:hover {
     opacity:1;
