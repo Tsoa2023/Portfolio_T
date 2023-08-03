@@ -4,6 +4,7 @@
     color: white;
     text-decoration: none;
     list-style: none;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +27,6 @@ li {
 li a {
     display: flex;
     color: white;
-    text-align: center;
     padding: 14px 16px;
 }
 
